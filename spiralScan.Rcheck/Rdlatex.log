@@ -1,0 +1,4 @@
+Warning in file(outfile, "wt") :
+  cannot open file 'C:/Users/e
+e/AppData/Local/Temp/RtmpYDUAvH/Rd2pdf70504f7353f4/Rd2.tex': Invalid argument
+Error in file(outfile, "wt") : cannot open the connection

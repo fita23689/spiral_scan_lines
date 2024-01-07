@@ -1,0 +1,93 @@
+* using log directory 'C:/Users/啊呆/Desktop/spiral_scan_lines/spiralScan.Rcheck'
+* using R version 4.3.2 (2023-10-31 ucrt)
+* using platform: x86_64-w64-mingw32 (64-bit)
+* R was compiled by
+    gcc.exe (GCC) 12.3.0
+    GNU Fortran (GCC) 12.3.0
+* running under: Windows 11 x64 (build 22621)
+* using session charset: UTF-8
+* checking for file 'spiralScan/DESCRIPTION' ... OK
+* checking extension type ... Package
+* this is package 'spiralScan' version '0.1.0'
+* package encoding: UTF-8
+* checking package namespace information ... NOTE
+  Namespace with empty importFrom: 'Rcpp'
+* checking package dependencies ... OK
+* checking if this is a source package ... OK
+* checking if there is a namespace ... OK
+* checking for executable files ... OK
+* checking for hidden files and directories ... OK
+* checking for portable file names ... OK
+* checking whether package 'spiralScan' can be installed ... OK
+* used C++ compiler: 'G__~1.EXE (GCC) 12.3.0'
+* checking installed package size ... OK
+* checking package directory ... OK
+* checking DESCRIPTION meta-information ... WARNING
+Non-standard license specification:
+  What license is it under?
+Standardizable: FALSE
+* checking top-level files ... OK
+* checking for left-over files ... OK
+* checking index information ... OK
+* checking package subdirectories ... OK
+* checking R files for non-ASCII characters ... OK
+* checking R files for syntax errors ... OK
+* checking whether the package can be loaded ... OK
+* checking whether the package can be loaded with stated dependencies ... OK
+* checking whether the package can be unloaded cleanly ... OK
+* checking whether the namespace can be loaded with stated dependencies ... OK
+* checking whether the namespace can be unloaded cleanly ... OK
+* checking loading without being on the library search path ... OK
+* checking dependencies in R code ... OK
+* checking S3 generic/method consistency ... OK
+* checking replacement functions ... OK
+* checking foreign function calls ... OK
+* checking R code for possible problems ... NOTE
+laser_locus: no visible binding for global variable 'fou'
+laser_locus: no visible global function definition for 'ggplot'
+laser_locus: no visible global function definition for 'aes'
+laser_locus: no visible global function definition for 'geom_path'
+laser_locus: no visible global function definition for 'coord_equal'
+laser_locus: no visible global function definition for 'theme_minimal'
+laser_locus: no visible global function definition for 'labs'
+laser_locus: no visible global function definition for 'theme'
+laser_locus: no visible global function definition for 'element_text'
+laser_locus: no visible global function definition for 'element_blank'
+laser_locus: no visible global function definition for
+  'scale_x_continuous'
+laser_locus: no visible global function definition for
+  'scale_y_continuous'
+laser_locus: no visible global function definition for 'geom_polygon'
+laser_locus: no visible global function definition for 'geom_segment'
+laser_locus: no visible binding for global variable 'x1'
+laser_locus: no visible binding for global variable 'y1'
+laser_locus: no visible binding for global variable 'x2'
+laser_locus: no visible binding for global variable 'y2'
+laser_locus: no visible global function definition for 'plot_grid'
+laser_locus: no visible global function definition for 'dev.copy'
+laser_locus: no visible binding for global variable 'png'
+laser_locus: no visible global function definition for 'dev.off'
+Undefined global functions or variables:
+  aes coord_equal dev.copy dev.off element_blank element_text fou
+  geom_path geom_polygon geom_segment ggplot labs plot_grid png
+  scale_x_continuous scale_y_continuous theme theme_minimal x1 x2 y1 y2
+Consider adding
+  importFrom("grDevices", "dev.copy", "dev.off", "png")
+to your NAMESPACE file.
+* checking for missing documentation entries ... WARNING
+Undocumented code objects:
+  'laser_locus' 'spiral_scan_lines' 'tangent_point'
+All user-level objects in a package should have documentation entries.
+See chapter 'Writing R documentation files' in the 'Writing R
+Extensions' manual.
+* checking line endings in C/C++/Fortran sources/headers ... OK
+* checking compiled code ... OK
+* checking examples ... NONE
+* checking PDF version of manual ... ERROR
+Rd conversion errors:
+Warning in file(outfile, "wt") :
+  cannot open file 'C:/Users/e
+e/AppData/Local/Temp/RtmpYDUAvH/Rd2pdf70504f7353f4/Rd2.tex': Invalid argument
+Error in file(outfile, "wt") : cannot open the connection
+* DONE
+Status: 1 ERROR, 2 WARNINGs, 2 NOTEs

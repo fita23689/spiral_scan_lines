@@ -1,0 +1,25 @@
+* installing *source* package 'spiralScan' ...
+** using staged installation
+** libs
+using C++ compiler: 'G__~1.EXE (GCC) 12.3.0'
+g++ -std=gnu++17  -I"C:/PROGRA~1/R/R-43~1.2/include" -DNDEBUG  -I'D:/Rpackage/Rcpp/include'   -I"C:/RBuildTools/4.3/x86_64-w64-mingw32.static.posix/include"     -O2 -Wall  -mfpmath=sse -msse2 -mstackrealign  -c RcppExports.cpp -o RcppExports.o
+g++ -std=gnu++17  -I"C:/PROGRA~1/R/R-43~1.2/include" -DNDEBUG  -I'D:/Rpackage/Rcpp/include'   -I"C:/RBuildTools/4.3/x86_64-w64-mingw32.static.posix/include"     -O2 -Wall  -mfpmath=sse -msse2 -mstackrealign  -c spiral_scan_lines.cpp -o spiral_scan_lines.o
+g++ -std=gnu++17 -shared -s -static-libgcc -o spiralScan.dll tmp.def RcppExports.o spiral_scan_lines.o -LC:/RBuildTools/4.3/x86_64-w64-mingw32.static.posix/lib/x64 -LC:/RBuildTools/4.3/x86_64-w64-mingw32.static.posix/lib -LC:/PROGRA~1/R/R-43~1.2/bin/x64 -lR
+C:\RBUILD~1\4.3\X86_64~1.POS\bin\nm.exe: C:/Users/°¡´ô/Desktop/spiral_scan_lines/spiralScan.Rcheck/00_pkg_src/spiralScan/src/RcppExports.o: No such file or directory
+C:\RBUILD~1\4.3\X86_64~1.POS\bin\nm.exe: C:/Users/°¡´ô/Desktop/spiral_scan_lines/spiralScan.Rcheck/00_pkg_src/spiralScan/src/spiral_scan_lines.o: No such file or directory
+Warning messages:
+1: In system(sprintf("%s -Pg %s", nm, shQuote(f)), intern = TRUE) :
+  running command '"C:\RBUILD~1\4.3\X86_64~1.POS\bin\nm.exe" -Pg "C:/Users/å•Šå‘†/Desktop/spiral_scan_lines/spiralScan.Rcheck/00_pkg_src/spiralScan/src/RcppExports.o"' had status 1
+2: In system(sprintf("%s -Pg %s", nm, shQuote(f)), intern = TRUE) :
+  running command '"C:\RBUILD~1\4.3\X86_64~1.POS\bin\nm.exe" -Pg "C:/Users/å•Šå‘†/Desktop/spiral_scan_lines/spiralScan.Rcheck/00_pkg_src/spiralScan/src/spiral_scan_lines.o"' had status 1
+installing to C:/Users/å•Šå‘†/Desktop/spiral_scan_lines/spiralScan.Rcheck/00LOCK-SPIRAL~1/00new/spiralScan/libs/x64
+** R
+** byte-compile and prepare package for lazy loading
+** help
+No man pages found in package  'spiralScan' 
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* DONE (spiralScan)
