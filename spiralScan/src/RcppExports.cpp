@@ -11,21 +11,22 @@ Rcpp::Rostream<false>& Rcpp::Rcerr = Rcpp::Rcpp_cerr_get();
 #endif
 
 // spiral_scan_lines
-DataFrame spiral_scan_lines(double beam_divergence_angle, double compensate_angle, NumericMatrix FOU);
-RcppExport SEXP _spiralScan_spiral_scan_lines(SEXP beam_divergence_angleSEXP, SEXP compensate_angleSEXP, SEXP FOUSEXP) {
+DataFrame spiral_scan_lines(double beam_divergence_angle, double compensate_angle, NumericMatrix FOU, Nullable<NumericVector> point);
+RcppExport SEXP _spiralScan_spiral_scan_lines(SEXP beam_divergence_angleSEXP, SEXP compensate_angleSEXP, SEXP FOUSEXP, SEXP pointSEXP) {
 BEGIN_RCPP
     Rcpp::RObject rcpp_result_gen;
     Rcpp::RNGScope rcpp_rngScope_gen;
     Rcpp::traits::input_parameter< double >::type beam_divergence_angle(beam_divergence_angleSEXP);
     Rcpp::traits::input_parameter< double >::type compensate_angle(compensate_angleSEXP);
     Rcpp::traits::input_parameter< NumericMatrix >::type FOU(FOUSEXP);
-    rcpp_result_gen = Rcpp::wrap(spiral_scan_lines(beam_divergence_angle, compensate_angle, FOU));
+    Rcpp::traits::input_parameter< Nullable<NumericVector> >::type point(pointSEXP);
+    rcpp_result_gen = Rcpp::wrap(spiral_scan_lines(beam_divergence_angle, compensate_angle, FOU, point));
     return rcpp_result_gen;
 END_RCPP
 }
 
 static const R_CallMethodDef CallEntries[] = {
-    {"_spiralScan_spiral_scan_lines", (DL_FUNC) &_spiralScan_spiral_scan_lines, 3},
+    {"_spiralScan_spiral_scan_lines", (DL_FUNC) &_spiralScan_spiral_scan_lines, 4},
     {NULL, NULL, 0}
 };
 
