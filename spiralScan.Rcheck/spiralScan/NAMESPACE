@@ -1,3 +1,0 @@
-useDynLib(spiralScan)
-importFrom(Rcpp)
-exportPattern("^[[:alpha:]]+")
