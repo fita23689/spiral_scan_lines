@@ -160,8 +160,8 @@ laser_locus <- function(point_locus, parameter, point = NULL) {
   png_path <- file.path(getwd(), '%01d.png')
   png_files <- sprintf(png_path, 1:nrow(point_locus))
   gif_file <- file.path(getwd(), 'spiral_scan.gif')
-  gifski(png_files, gif_file, width=1700, height=1600, delay=scanning_time/1200)
-  unlink(png_files)
+  #gifski(png_files, gif_file)
+  gifski(png_files, gif_file, width=1700, height=1600, delay=scanning_time)
   setwd(wd)
 }
 

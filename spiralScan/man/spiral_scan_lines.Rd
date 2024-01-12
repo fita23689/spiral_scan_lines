@@ -10,6 +10,10 @@ spiral_scan_lines(beam_divergence_angle, compensate_angle, FOU, point = NULL)
 \item{beam_divergence_angle}{parameter}
 
 \item{compensate_angle}{parameter}
+
+\item{point}{point to scan}
+
+\item{fou}{FOU}
 }
 \description{
 calculate points in the route

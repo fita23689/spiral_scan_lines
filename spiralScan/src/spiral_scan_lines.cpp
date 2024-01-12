@@ -17,6 +17,8 @@ double equation(double y, double x) {
 //'
 //'@param beam_divergence_angle parameter
 //'@param compensate_angle parameter
+//'@param fou FOU
+//'@param point point to scan
 //'
 //'@examples
 //'fou = matrix(c(-1000, -1000, 1000, 1000), 2, 2, TRUE)
