@@ -1,15 +1,14 @@
 Package: spiralScan
 Type: Package
-Title: What the Package Does (Title Case)
-Version: 0.1.2
-Author: Who wrote it
-Maintainer: The package maintainer <yourself@somewhere.net>
-Description: More about what it does (maybe more than one line)
-    Use four spaces when indenting paragraphs within the Description.
-License: What license is it under?
+Title: Simulation and Analysis of Constant Step Spiral Scanning in Optical ATP Systems
+Version: 0.1.1
+Author: Hao Zheng；Haofeng Zheng
+Maintainer: Hao Zheng <2023103362@ruc.edu.cn>
+Description: This package offers a comprehensive set of tools for simulating and analyzing constant step spiral scanning in beaconless optical Acquisition, Tracking, and Pointing (ATP) technologies. It is designed to facilitate the study and understanding of the optical ATP process by allowing users to input real parameters to simulate the number of scanning steps and the time required for each step. The package provides functions to model and visualize the scanning pattern, aiding in the optimization and evaluation of ATP strategies in various scenarios. Additionally, it's important to note that this package was developed as part of a graduate-level academic assignment. While it aims to accurately represent the concepts of optical ATP and spiral scanning, it may have limitations in its applicability to real-world systems. Users are encouraged to consider this context when utilizing the package for research or professional purposes.
+License: MIT License
 Encoding: UTF-8
-LazyData: true
 Imports: Rcpp
 LinkingTo: Rcpp
 Depends: ggplot2, cowplot, gifski, progress
 RoxygenNote: 7.2.3
+NeedsCompilation: yes
